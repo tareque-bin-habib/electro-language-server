@@ -6,7 +6,6 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 
 
-// const number = [1, 5, 3, 4, 8,]
 const products = require('./data/products.json');
 
 
